@@ -1,7 +1,6 @@
 #include	<sys/socket.h>
 #include	<netinet/in.h>	
 #include   	<arpa/inet.h>
-
 #include 	<netinet/in.h>
 #include 	<stdio.h>
 #include	<string.h>
@@ -207,9 +206,4 @@ else if (strcmp(op, "ODD") == 0) return 1;
 else return 0;
 } // validop()
 
-/*
-if(j>4) {
-wait(int &number)) ;
-}
-else j--
-*/
+
