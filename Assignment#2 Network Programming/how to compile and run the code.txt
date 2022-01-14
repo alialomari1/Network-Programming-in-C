@@ -1,0 +1,22 @@
+How to compile and run the code :
+
+1. creat a text file "that the client read the input from" (ex : ali.txt ).
+
+2.compile the server code :
+gcc aliserver.c -o aliserver
+
+3. compile the client code :
+gcc aliclient.c -o aliclient
+
+4.run the server : ./aliserver 7000  
+(7000 example of server port number) .
+
+5.run the client : ./aliclient 127.0.0.1 7000 1000000 ali.txt   
+(127.0.0.1 The server IP address)
+(7000 example of server port number) 
+(1000000 the number of micro-seconds the client waits between sending
+subsequent requests to the server) 
+(ali.txt this is the file that was created) .
+
+
+*After execution, a file will be created by the server, where the information is recorded on it , its name is (servfile.txt) .
