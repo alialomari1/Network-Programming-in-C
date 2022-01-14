@@ -1,0 +1,27 @@
+How to compile and run the code :
+
+1.) compile the server code :
+gcc udpserver.c -o udpserver.o
+
+2.) compile the client code :
+gcc udpclient.c -o udpclient.o 
+
+3.) run the server : ./udpserver.o 4000   
+(4000 example of server port number) .
+
+4.) run the client : ./udpclient.o 127.0.0.1 4000   
+(127.0.0.1 The server IP address)
+(4000 example of server port number) 
+
+-->
+Sample Run :
+input : Ali Alomari
+
+client's output:
+-->Text:Ali Alomari
+-->The number of words is : 2 & number of characters is : 11.
+-->received packet from:127.0.0.1 port 4000 .
+
+server's output :
+Received text is: Ali Alomari
+(received packet from: 127.0.0.1 port 45508)
