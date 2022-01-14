@@ -1,0 +1,36 @@
+How to compile and run the code :
+
+1.) compile the server code :
+gcc server.c -o server.o -lpthread
+
+2.) compile the client code :
+gcc client.c -o client.o 
+
+3.) run the server : ./udpserver.o 4000   
+(4000 example of server port number) .
+
+4.) run the client : ./udpclient.o 127.0.0.1 4000   
+(127.0.0.1 The server IP address)
+(4000 example of server port number) 
+
+5) Enter a set of characters separated by a space
+  (ex : c b 7 8 2 S h 5 2 0 )
+and the server will reply with reverse :
+ ( ex : 0 2 5 h S 2 8 7 b c ) .
+
+6)when executing four clients at the same time (the server will run normally), 
+but when you execute the fifth client, it will not be accepted until one of the four clients has finished . 
+
+-->
+Sample Run :
+input : a b c d e f g 1 2 3 4 5
+
+client's output:
+->Input#1: a b c d e f g 1 2 3 4 5
+
+->The result#1(reverse) is:5 4 3 2 1 g f e d c b a
+
+
+server's output :
+->request#1: a b c d e f g 1 2 3 4 5
+->response#1(reverse): 5 4 3 2 1 g f e d c b a
