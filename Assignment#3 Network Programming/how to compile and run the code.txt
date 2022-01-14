@@ -1,0 +1,19 @@
+How to compile and run the code :
+
+1.) compile the server code :
+gcc server.c -o server
+
+2.) compile the client code :
+gcc client.c -o client
+
+3.) run the server : ./server 7000  
+(7000 example of server port number) .
+
+4.) run the client : ./client 127.0.0.1 7000  
+(127.0.0.1 The server IP address)
+(7000 example of server port number) 
+
+
+
+** The server performs only one operation ((capitalization)) on string argument passed to the server
+by client, and the server returns the capitalized string to the calling client consequently.
