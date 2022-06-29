@@ -19,8 +19,7 @@ gcc aliclient.c -o aliclient
 5.run the client : ./aliclient 127.0.0.1 7000 1000000 ali.txt   
 (127.0.0.1 The server IP address)
 (7000 example of server port number) 
-(1000000 the number of micro-seconds the client waits between sending
-subsequent requests to the server) 
+(1000000 the number of micro-seconds the client waits between sending subsequent requests to the server) 
 (ali.txt this is the file that was created) .
 
 
