@@ -1,6 +1,3 @@
-// group names
-// bilal alqurneh  125955
-// Abdalazez Irsheidat 126469
 // Ali Alomari 134223
 
 #include <stdio.h>
