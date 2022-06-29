@@ -1,8 +1,4 @@
-// group names :
 // Ali Alomari 134223
-// bilal alqurneh  125955
-// Abdalazez Irsheidat 126469
-
 #include	<pthread.h>
 #include	<sys/socket.h>
 #include	<netinet/in.h>	
